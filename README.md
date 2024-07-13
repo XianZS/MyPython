@@ -1,7 +1,8 @@
 # MyPython
 
-&emsp;&emsp;个人python知识分享<br>
-&emsp;&emsp;Personal python knowledge sharing
+&emsp;&emsp;个人python知识分享.<br>
+&emsp;&emsp;Personal python knowledge sharing.<br>
+&emsp;&emsp;If you are interested, please give me a collection.<br>
 
 # Welcome
 
@@ -31,4 +32,6 @@ project.
 <br>
 &emsp;&emsp;Anyone is welcome to leave me a message, the following is my email address.<br>
 &emsp;&emsp;XianZhiSen_yang@outlook.com(Common mailbox)<br>
-&emsp;&emsp;XianZhiSen3135@gmail.com
+&emsp;&emsp;XianZhiSen3135@gmail.com<br>
+&emsp;&emsp;If there is any infringement, please contact me to delete it.All content in the project is for learning
+purposes only and is not for commercial use.<br>
