@@ -29,7 +29,6 @@ python very much, and I will continue to do so unswervingly.
 &emsp;&emsp;Everyone is welcome to provide comments on my project, or you may also want to share your own code into my
 project.
 <br>
-&emsp;&emsp;Anyone is welcome to leave me a message, the following is my email address.
-<br>
-XianZhiSen_yang@outlook.com(Common mailbox)<br>
-XianZhiSen3135@gmail.com
+&emsp;&emsp;Anyone is welcome to leave me a message, the following is my email address.<br>
+&emsp;&emsp;XianZhiSen_yang@outlook.com(Common mailbox)<br>
+&emsp;&emsp;XianZhiSen3135@gmail.com
