@@ -35,3 +35,4 @@ project.
 &emsp;&emsp;XianZhiSen3135@gmail.com<br>
 &emsp;&emsp;If there is any infringement, please contact me to delete it.All content in the project is for learning
 purposes only and is not for commercial use.<br>
+pip config set global.index-url https://mirrors.aliyun.com/pypi/simple/

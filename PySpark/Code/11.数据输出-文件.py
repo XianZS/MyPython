@@ -1,9 +1,9 @@
 from pyspark import SparkConf, SparkContext
 import os
 
-os.environ['PYSPARK_PYTHON'] = "D:/program/pycharm/code/MyPython/venv/Scripts/python.exe"
+os.environ['PYSPARK_PYTHON'] = "/home/xzs/pyCode/MyPython/venv/bin/python"
 
-os.environ['HADOOP_HOME'] = "D:/program/hadoop/hadoop-3.3.4"
+os.environ['HADOOP_HOME'] = "/home/xzs/hadoop/"
 conf = SparkConf().setMaster("local").setAppName("test_spark")
 sc = SparkContext(conf=conf)
 
