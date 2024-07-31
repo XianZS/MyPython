@@ -28,15 +28,20 @@ def main():
     # .accept()方法为阻塞方法，如果没有客户端连接，则会一直停留在此处
     conn, address = socket_server.accept()
     print(f"conn:{conn},address:{address}")
-    # [5]接收客户端信息
-    # conn.recv(缓冲区大小，一般1024).decode(解码形式)
-    # --- return : 字节数组bytes对象，不是字符串对象，可以通过decode()方法将字节数组转换为字符串
-    print(f"客户端发送的信息为:", conn.recv(1024).decode("UTF-8"))
-    # [6]发送回复消息
-    msg = input("请输入你回复的消息").encode("UTF-8")
-    conn.send(msg)
+    while True:
+        # [5]接收客户端信息
+        # conn.recv(缓冲区大小，一般1024).decode(解码形式)
+        # --- return : 字节数组bytes对象，不是字符串对象，可以通过decode()方法将字节数组转换为字符串
+        ke_hu_duan = conn.recv(1024).decode("UTF-8")
+        print(f"客户端发送的信息为:", ke_hu_duan)
+        if ke_hu_duan == "再见":
+            break
+        # [6]发送回复消息
+        msg = input("请输入你回复的消息：").encode("UTF-8")
+        conn.send(msg)
     # [7]关闭链接
     conn.close()
+    socket_server.close()
 
 
 if __name__ == '__main__':
