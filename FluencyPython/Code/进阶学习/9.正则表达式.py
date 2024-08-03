@@ -9,7 +9,10 @@
         else:
             return None
     main2():Use re.search()
-        mean:
+        mean:判断b的有没有a这个子串
+        xxx=re.search(a,b)
+    main3():Use re.findall(匹配规则，被匹配字符串)
+        mean:在被匹配字符串中，找出所有符合匹配的信息
 """
 import sys
 import os
@@ -35,6 +38,17 @@ def main2():
     print(res)
 
 
+def main3():
+    als = "python some xzs python on somethings"
+    ans = "python"
+    res = re.findall(ans, als)
+    print(res)
+
+
 if __name__ == '__main__':
     main1()
+    print("*********")
     main2()
+    print("*********")
+    main3()
+    print("*********")
