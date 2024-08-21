@@ -106,7 +106,7 @@ with Sample() as sample:
 class OpenFile:
     def __enter__(self):
         try:
-            self.file_obj = open("./with测试文件.txt","w")
+            self.file_obj = open("./with测试文件.txt", "w")
         except FileNotFoundError:
             self.file_obj = None
         print("__enter__")
@@ -128,4 +128,6 @@ class OpenFile:
 
 
 with OpenFile() as MyFile:
+    # __enter__
     MyFile.Write()
+    # __exit__
