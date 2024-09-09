@@ -1,5 +1,6 @@
-def main():
-    print("Welcome to my project")
+def main() -> int:
+    print("main")
+    return 0
 
 
 if __name__ == '__main__':
